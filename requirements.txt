@@ -1,3 +1,6 @@
 streamlit
 openai
 google-auth
+python-dotenv
+pandas
+requests
