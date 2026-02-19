@@ -1,45 +1,46 @@
 🛡️ Neural Shadow
-Autonomous Cloud Security & AI-Driven Threat Correlation
+Autonomous Cloud Threat Orchestrator & Reconnaissance Suite
 
-Neural Shadow is an AI-powered security dashboard designed to identify, validate, and prioritize cloud vulnerabilities. By combining traditional scanning logic with LLM reasoning, it helps security teams bridge the gap between "finding a leak" and "understanding the risk."
+Neural Shadow is a high-performance security dashboard designed to bridge the gap between raw vulnerability detection and actionable intelligence. Developed by a former Law Enforcement Officer and Lead Diesel Technician, this tool applies a diagnostic "root-cause" mindset to modern cloud infrastructure.
 
-🚀 Key Features
-Multi-Threat Correlation Engine: Automatically analyzes high-risk vulnerabilities including TOKEN_LEAKAGE, OPEN_FIREWALL, and PUBLIC_BUCKET.
+🚀 Core Features
+🧠 Neural Brain (AI): Leverages GPT-4o-mini to perform real-time Kill Chain analysis and remediation planning on raw log data.
 
-AI Reasoning Engine: Uses OpenAI's GPT-4o-mini to perform Kill Chain Analysis and suggest remediation strategies.
+🔑 OWEN Engine: A specialized validator for leaked Google Cloud Platform (GCP) service account keys.
 
-Mission Control UI: A streamlined Streamlit dashboard that provides a real-time view of your cloud security posture.
+📡 Global Recon & Mapping: Discovers subdomains via Certificate Transparency logs and geolocates assets on a global threat map.
 
-Zero-Trust Architecture: Securely manages GCP and OpenAI credentials using encrypted environment secrets.
+🛡️ Header Audit: Instantly evaluates a target's HTTP security posture (CSP, HSTS, XFO, etc.).
 
-🛠️ Tech Stack
-Language: Python 3.x
-
-Framework: Streamlit
-
-Intelligence: OpenAI API (GPT-4o-mini)
-
-Cloud: Google Cloud Platform (SCC & IAM)
-
-Deployment: Streamlit Cloud with GitHub CI/CD
-
-⚙️ Installation & Setup
-Clone the Repo:
+🛠️ Installation & Setup
+Clone the Repository:
 
 Bash
-git clone https://github.com/jonathanrey87/Neural-Shadow.git
+git clone https://github.com/yourusername/neural-shadow.git
+cd neural-shadow
 Install Dependencies:
 
 Bash
 pip install -r requirements.txt
 Configure Secrets:
-Create a .streamlit/secrets.toml file or use the Streamlit Cloud Secrets dashboard to add:
+Create a .env file in the root directory or add to Streamlit Secrets:
 
-OPENAI_API_KEY
+Plaintext
+OPENAI_API_KEY=your_sk_key_here
+Run the Application:
 
-GCP_PROJECT_ID
+Bash
+streamlit run app.py
+📐 Technical Architecture
+Neural Shadow is built using a modular Python architecture to ensure scalability and security:
 
-[gcp_service_account] (Service account JSON details)
+Frontend: Streamlit (Custom CSS "Cyber Ops" Theme)
 
-🎓 About the Developer
-Developed by Jonathan Mendiola, an IT Professional and student at South University. Built for the HackFest Cybersecurity Hackathon on Devpost.
+AI Orchestration: OpenAI API (GPT-4o-mini)
+
+Cloud Integration: Google Auth & GCP IAM Validation
+
+Intelligence: crt.sh API & IP-API Geolocation
+
+👤 About the Developer
+I am a Computer and Information Sciences student at South University. My approach to cybersecurity is informed by years of experience in Texas Law Enforcement and Mechanical Diagnostics. I specialize in identifying information disclosures and have submitted reports to the U.S. Department of Defense and major tech platforms via HackerOne.
