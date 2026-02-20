@@ -1,46 +1,24 @@
-🛡️ Neural Shadow
-Autonomous Cloud Threat Orchestrator & Reconnaissance Suite
+# 🌑 NEURAL SHADOW // v3.4.9
+**Advanced Cybersecurity Reconnaissance & Neural Breach Visualization**
 
-Neural Shadow is a high-performance security dashboard designed to bridge the gap between raw vulnerability detection and actionable intelligence. Developed by a former Law Enforcement Officer and Lead Diesel Technician, this tool applies a diagnostic "root-cause" mindset to modern cloud infrastructure.
+![Status](https://img.shields.io/badge/Status-Operational-00FF41?style=for-the-badge)
+![Operator](https://img.shields.io/badge/Operator-Jonathan_Mendiola-00D4FF?style=for-the-badge)
 
-🚀 Core Features
-🧠 Neural Brain (AI): Leverages GPT-4o-mini to perform real-time Kill Chain analysis and remediation planning on raw log data.
+## ⚡ Overview
+Neural Shadow is a high-intensity cybersecurity dashboard built for **Target Reconnaissance** and **Cloud Infrastructure Auditing**. By combining Python-based OSINT logic with a "Neural" AI Explainer, it maps attack surfaces in real-time and generates actionable intelligence reports.
 
-🔑 OWEN Engine: A specialized validator for leaked Google Cloud Platform (GCP) service account keys.
+## 🛠️ Tactical Specs
+* **Ghost Matrix Engine:** Custom watermark branding with 80% visual exposure.
+* **Intelligence Mapping:** Multi-color, multi-size node visualization using Hexagram markers to prioritize high-risk targets.
+* **Neural Breach Explainer:** AI-driven logic that identifies SSRF, IAM misconfigurations, and lateral movement paths.
+* **Tactical Export:** Instant generation of formal Intelligence Reports for bug bounty submissions.
 
-📡 Global Recon & Mapping: Discovers subdomains via Certificate Transparency logs and geolocates assets on a global threat map.
-
-🛡️ Header Audit: Instantly evaluates a target's HTTP security posture (CSP, HSTS, XFO, etc.).
-
-🛠️ Installation & Setup
-Clone the Repository:
-
-Bash
-git clone https://github.com/yourusername/neural-shadow.git
-cd neural-shadow
-Install Dependencies:
-
-Bash
+## 🚀 Deployment
+```bash
+git clone [https://github.com/YourUsername/neural-shadow.git](https://github.com/YourUsername/neural-shadow.git)
+cd neural_shadow
 pip install -r requirements.txt
-Configure Secrets:
-Create a .env file in the root directory or add to Streamlit Secrets:
-
-Plaintext
-OPENAI_API_KEY=your_sk_key_here
-Run the Application:
-
-Bash
-streamlit run app.py
-📐 Technical Architecture
-Neural Shadow is built using a modular Python architecture to ensure scalability and security:
-
-Frontend: Streamlit (Custom CSS "Cyber Ops" Theme)
-
-AI Orchestration: OpenAI API (GPT-4o-mini)
-
-Cloud Integration: Google Auth & GCP IAM Validation
-
-Intelligence: crt.sh API & IP-API Geolocation
-
+streamlit run neural_shadow-v3.py
 👤 About the Developer
+
 I am a Computer and Information Sciences student at South University. My approach to cybersecurity is informed by years of experience in Texas Law Enforcement and Mechanical Diagnostics. I specialize in identifying information disclosures and have submitted reports to the U.S. Department of Defense and major tech platforms via HackerOne.
