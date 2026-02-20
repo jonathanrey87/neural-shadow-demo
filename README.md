@@ -30,11 +30,4 @@ source venv/bin/activate # or .\venv\Scripts\activate
 pip install streamlit pandas plotly
 streamlit run neural_shadow-v3.py
 
-
-
-
-
-
-
-
 I am a Computer and Information Sciences student at South University. My approach to cybersecurity is informed by years of experience in Texas Law Enforcement and Mechanical Diagnostics. I specialize in identifying information disclosures and have submitted reports to the U.S. Department of Defense and major tech platforms via HackerOne.
